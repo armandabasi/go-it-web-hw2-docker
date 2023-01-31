@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pva-poetry"
+version = "1.0.0"
+description = ""
+authors = ["Tetiana Fedoryshena <514ftg@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pva_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
